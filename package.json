@@ -1,0 +1,25 @@
+{
+    "name": "git-history-visualizer",
+    "version": "0.1.0",
+    "main": "index.js",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jacobra19/git-history-visualizer.git"
+    },
+    "author": "Yakov Rakhamimov <jacobra19@gmail.com>",
+    "license": "MIT",
+    "description": "",
+    "bugs": {
+        "url": "https://github.com/jacobra19/git-history-visualizer/issues"
+    },
+    "homepage": "https://github.com/jacobra19/git-history-visualizer#readme",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "cd ./client && npm run dev",
+        "getgit": "cd ./gha && node index.js"
+    },
+    "dependencies": {
+        "simple-git": "^2.47.0"
+    }
+}
