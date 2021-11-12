@@ -2,14 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import { AppContextProvider } from '@contexts';
-import CssBaseline from '@mui/material/CssBaseline';
+import { ThemeProvider, BaseStyles } from '@primer/components';
 
 ReactDOM.render(
     <React.StrictMode>
-        <CssBaseline />
-        <AppContextProvider>
-            <App />
-        </AppContextProvider>
+        <ThemeProvider>
+            <AppContextProvider>
+                <BaseStyles>
+                    <App />
+                </BaseStyles>
+            </AppContextProvider>
+        </ThemeProvider>
     </React.StrictMode>,
     document.getElementById('root'),
 );

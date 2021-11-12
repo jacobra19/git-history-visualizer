@@ -1,13 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { Header, StyledOcticon, Avatar } from '@primer/components';
+const APP_TITLE = import.meta.env.VITE_APP_TITLE || '';
 const TopBar = () => {
     return (
-        <div>
-            <h1>Hello World</h1>
-            <Link to="/">Home</Link>
-            <Link to="/non-existaing-page">Unknown Page</Link>
-        </div>
+        <Header>
+            <Header.Item>
+                <Header.Link fontSize={4} >
+                    <Link style={{textDecoration:'none',color:'white'}} to="/">
+                        <span >{APP_TITLE}</span>
+                    </Link>
+                </Header.Link>
+            </Header.Item>
+        </Header>
     );
 };
 
