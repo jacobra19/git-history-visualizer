@@ -1,0 +1,113 @@
+import React from 'react'
+
+const mock =     {
+    "status": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "files": [
+        ".gitignore",
+        ".prettierignore",
+        ".prettierrc",
+        "LICENSE",
+        "README.md",
+        "content/assets/code-icon.png",
+        "content/assets/code-outline.png",
+        "content/assets/code.png",
+        "content/assets/favicon.ico",
+        "content/assets/gatsby-icon.png",
+        "content/assets/profile-pic.jpg",
+        "content/blog/my-plans-and-goals-for-2021/index.md",
+        "content/blog/new-home-new-beginings/index.md",
+        "content/drafts/hello-world/index.md",
+        "content/drafts/hello-world/salty_egg.jpg",
+        "content/drafts/my-second-post/index.md",
+        "content/drafts/recursion/index.md",
+        "gatsby-browser.js",
+        "gatsby-config.js",
+        "gatsby-node.js",
+        "package.json",
+        "src/components/bio.js",
+        "src/components/blog-post-card.js",
+        "src/components/header.js",
+        "src/components/layout.js",
+        "src/components/seo.js",
+        "src/pages/404.js",
+        "src/pages/about.js",
+        "src/pages/index.js",
+        "src/svgs/github.inline.svg",
+        "src/svgs/instagram.inline.svg",
+        "src/svgs/linkedin.inline.svg",
+        "src/svgs/twitter.inline.svg",
+        "src/templates/blog-post.js",
+        "src/utils/typography.js",
+        "static/favicon.ico",
+        "static/robots.txt",
+        "yarn.lock"
+    ],
+    "hash": "372ebcf391971b068adf68818564a7d65e0dd58b",
+    "abbrevHash": "372ebcf",
+    "treeHash": "5da036966d9bf43d958a1bf2a9f3e248ee77f97b",
+    "abbrevTreeHash": "5da0369",
+    "parentHashes": "",
+    "abbrevParentHashes": "",
+    "authorName": "Yakov Rakhamimov",
+    "authorEmail": "jacobra19@gmail.com",
+    "authorDate": "2021-10-09 23:37:01 +0300",
+    "authorDateRel": "5 weeks ago",
+    "committerName": "Yakov Rakhamimov",
+    "committerEmail": "jacobra19@gmail.com",
+    "committerDate": "Sat Oct 9 23:37:01 2021 +0300",
+    "committerDateRel": "5 weeks ago",
+    "subject": "updated package.json and formatted",
+    "body": "",
+    "rawBody": "updated package.json and formatted\n"
+}
+
+const Files = () => {
+    // console.log(`mock`, mock)
+    return (
+        <div>
+            
+        </div>
+    )
+}
+
+
+export default Files
