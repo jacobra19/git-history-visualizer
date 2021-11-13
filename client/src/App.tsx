@@ -6,7 +6,7 @@ import { TopBar } from '@components';
 
 function App() {
     return (
-        <div className="App">
+        <div className="App" style={{display:'flex',flexDirection:'column'}}>
             <Router>
                 <TopBar/>
                 <Switch>
